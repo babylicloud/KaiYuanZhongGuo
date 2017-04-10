@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myuplode.jiyun.com.kaiyuanzhongguo.FragmentMainActivity">
+    tools:context="jiyun.com.lianxi_dayone.news.MainActivity">
+    <EditText
+        android:id="@+id/Main_EditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="随你搜"/>
+
+<!--
+    <android.support.v4.view.ViewPager
+        android:id="@+id/Main_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </android.support.v4.view.ViewPager>
+
+    <com.androidkun.PullToRefreshRecyclerView
+        android:id="@+id/Main_PullRecycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <android.support.design.widget.TabLayout
+        android:id="@+id/myTabLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.design.widget.TabLayout>-->
+
+    <com.androidkun.PullToRefreshRecyclerView
+        android:id="@+id/Main_PullRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>
